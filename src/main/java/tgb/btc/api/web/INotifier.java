@@ -1,6 +1,6 @@
 package tgb.btc.api.web;
 
-public interface Notifier {
+public interface INotifier {
 
     void notifyApiDeal(Long apiDealPid);
 }

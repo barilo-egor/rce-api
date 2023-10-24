@@ -1,6 +1,6 @@
 package tgb.btc.api.library;
 
-public interface IReviewPrise {
+public interface IReviewPriseService {
 
     void processReviewPrise();
 }

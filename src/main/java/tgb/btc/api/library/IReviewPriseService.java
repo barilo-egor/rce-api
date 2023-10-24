@@ -2,5 +2,5 @@ package tgb.btc.api.library;
 
 public interface IReviewPriseService {
 
-    void processReviewPrise();
+    void processReviewPrise(Long dealPid);
 }

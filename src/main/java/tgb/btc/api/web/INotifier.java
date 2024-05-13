@@ -7,4 +7,6 @@ public interface INotifier {
     void notifyDealAutoDeleted(Long chatId, Integer messageId);
 
     void sendNotify(Long chatId, String text);
+
+    void sendLoginRequest(Long chatId);
 }

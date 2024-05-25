@@ -1,6 +1,6 @@
 package tgb.btc.api.web;
 
-public interface NotificationsAPI {
+public interface INotificationsAPI {
 
     void newBotDeal(Long dealPid);
 

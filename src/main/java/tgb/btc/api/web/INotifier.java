@@ -11,4 +11,6 @@ public interface INotifier {
     void sendNotify(Long chatId, String text);
 
     void sendLoginRequest(Long chatId);
+
+    void sendChatIdConfirmRequest(Long chatId);
 }

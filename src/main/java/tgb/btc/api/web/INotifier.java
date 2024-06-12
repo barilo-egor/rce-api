@@ -1,6 +1,7 @@
 package tgb.btc.api.web;
 
 import java.io.File;
+import java.util.List;
 
 public interface INotifier {
 
@@ -16,5 +17,5 @@ public interface INotifier {
 
     void sendChatIdConfirmRequest(Long chatId);
 
-    void sendFile(Long chatId, File file);
+    void sendFile(List<Long> chatId, File file);
 }

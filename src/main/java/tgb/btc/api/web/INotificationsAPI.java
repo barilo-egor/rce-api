@@ -7,4 +7,6 @@ public interface INotificationsAPI {
     void additionalVerificationReceived(Long dealPid);
 
     void declinedVerificationReceived(Long dealPid);
+
+    void btcReadFromUrlError();
 }

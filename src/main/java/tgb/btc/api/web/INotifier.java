@@ -18,4 +18,6 @@ public interface INotifier {
     void sendChatIdConfirmRequest(Long chatId);
 
     void sendFile(List<Long> chatId, File file);
+
+    void notifyAdmins(String message);
 }

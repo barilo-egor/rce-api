@@ -8,5 +8,5 @@ public interface INotificationsAPI {
 
     void declinedVerificationReceived(Long dealPid);
 
-    void btcReadFromUrlError();
+    void sendNotify(String message);
 }

@@ -21,5 +21,5 @@ public interface INotifier {
 
     void notifyAdmins(String message);
 
-    void sendRequestToWithdraw(String requestInitiator, Long dealPid);
+    void sendRequestToWithdraw(String from, String requestInitiator, Long dealPid);
 }

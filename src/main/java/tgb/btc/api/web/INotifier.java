@@ -20,4 +20,6 @@ public interface INotifier {
     void sendFile(List<Long> chatId, File file);
 
     void notifyAdmins(String message);
+
+    void sendRequestToWithdraw(Long dealPid);
 }

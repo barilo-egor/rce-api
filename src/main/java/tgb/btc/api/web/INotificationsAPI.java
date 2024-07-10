@@ -9,4 +9,6 @@ public interface INotificationsAPI {
     void declinedVerificationReceived(Long dealPid);
 
     void sendNotify(String message);
+
+    void notifyDeletedDealRequestGroup();
 }

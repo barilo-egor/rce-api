@@ -23,5 +23,7 @@ public interface INotifier {
 
     void sendRequestToWithdraw(String from, String requestInitiator, Long dealPid);
 
-    void sendGreetingToNewGroup();
+    void sendGreetingToNewDealRequestGroup();
+
+    void sendGreetingToNewApiDealRequestGroup();
 }

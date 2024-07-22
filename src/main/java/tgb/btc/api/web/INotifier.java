@@ -28,4 +28,6 @@ public interface INotifier {
     void sendGreetingToNewDealRequestGroup();
 
     void sendGreetingToNewApiDealRequestGroup(Long apiUserPid);
+
+    void sendGoodbyeToNewApiDealRequestGroup(Long apiUserPid);
 }

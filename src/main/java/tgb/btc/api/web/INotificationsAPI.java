@@ -11,4 +11,6 @@ public interface INotificationsAPI {
     void sendNotify(String message);
 
     void notifyDeletedDealRequestGroup();
+
+    void newReview(Long reviewPid);
 }

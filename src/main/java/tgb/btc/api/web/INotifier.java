@@ -29,6 +29,8 @@ public interface INotifier {
 
     void sendGreetingToNewDealRequestGroup();
 
+    void sendGreetingToNewAutoWithdrawalGroup();
+
     void sendGreetingToNewApiDealRequestGroup(Long apiUserPid);
 
     void sendGoodbyeToNewApiDealRequestGroup(Long chatId, String apiUserId);

@@ -13,4 +13,6 @@ public interface INotificationsAPI {
     void notifyDeletedDealRequestGroup();
 
     void newReview(Long reviewPid);
+
+    void poolChanged();
 }

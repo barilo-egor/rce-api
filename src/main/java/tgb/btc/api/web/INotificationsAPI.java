@@ -14,5 +14,5 @@ public interface INotificationsAPI {
 
     void newReview(Long reviewPid);
 
-    void poolChanged();
+    void poolChanged(Long excludeChatId);
 }

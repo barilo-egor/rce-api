@@ -34,4 +34,6 @@ public interface INotifier {
     void sendGreetingToNewApiDealRequestGroup(Long apiUserPid);
 
     void sendGoodbyeToNewApiDealRequestGroup(Long chatId, String apiUserId);
+
+    void notifyPoolChanged(Long excludeChatId);
 }

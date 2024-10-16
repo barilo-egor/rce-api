@@ -21,8 +21,6 @@ public interface INotifier {
 
     void notifyAdmins(String message);
 
-    void notifyAdmins(String message, Long excludeChatId);
-
     void sendRequestToWithdrawDeal(String from, String requestInitiator, Long dealPid);
 
     void sendAutoWithdrawDeal(String from, String requestInitiator, Long dealPid);

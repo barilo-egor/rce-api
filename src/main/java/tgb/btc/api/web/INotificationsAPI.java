@@ -9,4 +9,10 @@ public interface INotificationsAPI {
     void declinedVerificationReceived(Long dealPid);
 
     void sendNotify(String message);
+
+    void notifyDeletedDealRequestGroup();
+
+    void newReview(Long reviewPid);
+
+    void poolChanged();
 }

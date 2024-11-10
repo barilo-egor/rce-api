@@ -16,5 +16,7 @@ public interface INotificationsAPI {
 
     void publicationOfReviewsOver();
 
+    void reviewPublished();
+
     void poolChanged(String message);
 }

@@ -14,5 +14,7 @@ public interface INotificationsAPI {
 
     void newReview(Long reviewPid);
 
+    void publicationOfReviewsOver();
+
     void poolChanged(String message);
 }

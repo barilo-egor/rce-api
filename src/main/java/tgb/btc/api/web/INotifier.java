@@ -38,6 +38,4 @@ public interface INotifier {
     void notifyPoolChanged(Long excludeChatId);
 
     void apiDealDeclined(Long apiDealPid);
-
-    void payscrowUpdateStatus(Long dealPid, String text);
 }

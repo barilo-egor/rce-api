@@ -36,4 +36,6 @@ public interface INotifier {
     void sendGoodbyeToNewApiDealRequestGroup(Long chatId, String apiUserId);
 
     void notifyPoolChanged(Long excludeChatId);
+
+    void payscrowUpdateStatus(Long dealPid, String text);
 }

@@ -19,4 +19,6 @@ public interface INotificationsAPI {
     void reviewPublished();
 
     void poolChanged(String message);
+
+    void apiDealDeclined(Long apiDealPid);
 }

@@ -39,5 +39,5 @@ public interface INotifier {
 
     void apiDealDeclined(Long apiDealPid);
 
-    void payscrowUpdateStatus(Long dealPid, String text);
+    void merchantUpdateStatus(Long dealPid, String text);
 }

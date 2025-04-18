@@ -22,8 +22,6 @@ public interface INotifier {
 
     void notifyAdmins(String message);
 
-    void notifyByRoles(String message, Set<String> roles);
-
     void sendRequestToWithdrawDeal(String from, String requestInitiator, Long dealPid);
 
     void sendAutoWithdrawDeal(String from, String requestInitiator, Long dealPid);
@@ -43,4 +41,6 @@ public interface INotifier {
     void apiDealDeclined(Long apiDealPid);
 
     void merchantUpdateStatus(Long dealPid, String text);
+
+    void notifyAutoConfirmDeal(String message, Long dealPid);
 }

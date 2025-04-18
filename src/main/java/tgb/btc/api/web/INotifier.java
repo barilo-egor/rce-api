@@ -2,6 +2,7 @@ package tgb.btc.api.web;
 
 import java.io.File;
 import java.util.List;
+import java.util.Set;
 
 public interface INotifier {
 
@@ -40,4 +41,6 @@ public interface INotifier {
     void apiDealDeclined(Long apiDealPid);
 
     void merchantUpdateStatus(Long dealPid, String text);
+
+    void notifyAutoConfirmDeal(String message, Long dealPid);
 }

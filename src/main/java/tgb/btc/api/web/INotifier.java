@@ -2,6 +2,7 @@ package tgb.btc.api.web;
 
 import java.io.File;
 import java.util.List;
+import java.util.Set;
 
 public interface INotifier {
 
@@ -20,6 +21,8 @@ public interface INotifier {
     void sendFile(List<Long> chatId, File file);
 
     void notifyAdmins(String message);
+
+    void notifyByRoles(String message, Set<String> roles);
 
     void sendRequestToWithdrawDeal(String from, String requestInitiator, Long dealPid);
 
